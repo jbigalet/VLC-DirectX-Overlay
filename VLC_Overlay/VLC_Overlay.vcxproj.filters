@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="NCodeHook">
+      <UniqueIdentifier>{23b5a476-90a5-4079-bc9b-d1e2fdb7a2cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rapidjson">
+      <UniqueIdentifier>{a8227ec0-db2b-4dd6-8396-c1ff2b150e13}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="dllmain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NCodeHook\NCodeHook.h">
+      <Filter>NCodeHook</Filter>
+    </ClInclude>
+    <ClInclude Include="NCodeHook\NCodeHookInstantiation.h">
+      <Filter>NCodeHook</Filter>
+    </ClInclude>
+    <ClInclude Include="NCodeHook\NCodeHookItem.h">
+      <Filter>NCodeHook</Filter>
+    </ClInclude>
+    <ClInclude Include="HookedFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VLC_Overlay.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VLC_thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="VLC_JSON.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rapidjson\document.h">
+      <Filter>Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Rapidjson\filestream.h">
+      <Filter>Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Rapidjson\prettywriter.h">
+      <Filter>Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Rapidjson\rapidjson.h">
+      <Filter>Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Rapidjson\reader.h">
+      <Filter>Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Rapidjson\stringbuffer.h">
+      <Filter>Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Rapidjson\writer.h">
+      <Filter>Rapidjson</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NCodeHook\NCodeHook.cpp">
+      <Filter>NCodeHook</Filter>
+    </ClCompile>
+    <ClCompile Include="NCodeHook\NCodeHookItem.cpp">
+      <Filter>NCodeHook</Filter>
+    </ClCompile>
+    <ClCompile Include="HookedFunctions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VLC_Overlay.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VLC_thread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VLC_JSON.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

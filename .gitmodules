@@ -1,0 +1,3 @@
+[submodule "GUI_Engine"]
+	path = GUI_Engine
+	url = https://github.com/jbigalet/DirectX-GUI-engine.git

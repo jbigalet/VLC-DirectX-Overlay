@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GUI_Engine", "GUI_Engine\GUI_Engine.vcxproj", "{27D5E9A7-4F43-4AFB-821B-795F2162CC01}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VLC_Overlay", "VLC_Overlay\VLC_Overlay.vcxproj", "{210B35D4-BF72-41D0-9179-D5948A225350}"
+	ProjectSection(ProjectDependencies) = postProject
+		{27D5E9A7-4F43-4AFB-821B-795F2162CC01} = {27D5E9A7-4F43-4AFB-821B-795F2162CC01}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VLC_Overlay_Launcher", "VLC_Overlay_Launcher\VLC_Overlay_Launcher.vcxproj", "{6711E380-D821-46CC-8707-F3F25400C37C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{210B35D4-BF72-41D0-9179-D5948A225350} = {210B35D4-BF72-41D0-9179-D5948A225350}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27D5E9A7-4F43-4AFB-821B-795F2162CC01}.Debug|Win32.ActiveCfg = Debug|Win32
+		{27D5E9A7-4F43-4AFB-821B-795F2162CC01}.Debug|Win32.Build.0 = Debug|Win32
+		{27D5E9A7-4F43-4AFB-821B-795F2162CC01}.Release|Win32.ActiveCfg = Release|Win32
+		{27D5E9A7-4F43-4AFB-821B-795F2162CC01}.Release|Win32.Build.0 = Release|Win32
+		{210B35D4-BF72-41D0-9179-D5948A225350}.Debug|Win32.ActiveCfg = Debug|Win32
+		{210B35D4-BF72-41D0-9179-D5948A225350}.Debug|Win32.Build.0 = Debug|Win32
+		{210B35D4-BF72-41D0-9179-D5948A225350}.Release|Win32.ActiveCfg = Release|Win32
+		{210B35D4-BF72-41D0-9179-D5948A225350}.Release|Win32.Build.0 = Release|Win32
+		{6711E380-D821-46CC-8707-F3F25400C37C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{6711E380-D821-46CC-8707-F3F25400C37C}.Debug|Win32.Build.0 = Debug|Win32
+		{6711E380-D821-46CC-8707-F3F25400C37C}.Release|Win32.ActiveCfg = Release|Win32
+		{6711E380-D821-46CC-8707-F3F25400C37C}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = .
+	EndGlobalSection
+EndGlobal
